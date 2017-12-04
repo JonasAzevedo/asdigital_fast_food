@@ -1,0 +1,551 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HEADER STARTS HERE*/
+.header-back{
+	background: url(../images/head-back.png);
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	padding: 0px !important;
+}
+.top-line{
+	background: #ff0077;
+	padding: 7px;
+}
+.top ul{
+	display: inline;
+}
+.top ul li{
+	list-style: none;
+	float: left;
+	margin-right: 25px;
+	color: #fff;
+	font-family: Montserrat;
+}
+.top ul li i{
+	margin-right: 4px;
+}
+.top ul li a{
+	color: #fff;
+	font-family: Montserrat;
+}
+.top ul li a:hover{
+	text-decoration: none;
+}
+.top ul li a:focus{
+	text-decoration: none;
+}
+.navbar-default{
+	background: none !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+.navbar-collapse ul{
+	padding: 18px 15px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-family: Montserrat;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.navbar-nav li a:hover{
+	color: #ff4301 !important;
+}
+.navbar-nav li a.active{
+	color: #ff4301 !important;
+}
+.bg-pics{
+	margin-top: 100px;
+}
+.bg-pics img{
+	width: 20%;
+}
+.bg-pics h1{
+	font-family: Montserrat;
+	color: #fff;
+	font-weight: bold;
+}
+.bg-pics .btn-read{
+	background: #ff0077;
+	color: #fff;
+	border-radius: 0;
+	margin-top: 40px;
+	padding: 10px 30px;
+	font-weight: bold;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.bg-pics .btn-read:hover{
+	background: #fff;
+	color: #ff0077;
+	font-weight: bold;
+}
+.top-back{
+	background: #ff0077;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-family:"Open Sans";
+}
+.top-back h5{
+	font-weight: 600;
+	font-family:"Open Sans";
+	margin: 0px;
+}
+.top-back a{
+	color: #fff;
+}
+.top-back i{
+	color: #fff;
+}
+.top-back i .font-1{
+	color: #fff;
+	font-family:"Open Sans";
+}
+.social i{
+	font-size: 20px;
+	transition: 0.3s all ease-in;
+}
+.social i:hover{
+	color: #333;
+}
+.social a:hover{
+	text-decoration: none;
+}
+.navbar-default{
+	background: none !important;
+	border: none !important;
+}
+.navbar-brand{
+	padding-left: 0px !important;
+}
+.navbar-header .navbar-brand img{
+	width: 200px;
+}
+.myMenu{
+	float: right;
+	padding-right: 0px !important;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color: #ff0077 !important;
+	color: #fff !important;
+}
+.navbar-nav li{
+	margin-left: 10px;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.navbar-nav li:hover{
+	background: #ff0077;
+	color: #fff !important;
+	margin-left: 10px;
+}
+.navbar-nav li:hover a{
+	color: #fff !important;
+}
+.navbar-nav li a{
+	font-weight: 600;
+	font-family:Raleway;
+	color: #333 !important;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+/*HEADER ENDS HERE*/
+
+/*ABOUT US SECTION STARTS HERE*/
+.ab{
+	background: #f0f0f0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.img-box:hover{
+	border: 3px solid #ff0077;
+	cursor: pointer;
+}
+.img-box:hover img{
+	margin-bottom: 7px;
+	margin-left: 7px;
+	margin-top: -15px;
+}
+.ab h1{
+	font-family: Montserrat;
+	color: #ff0077;
+	font-weight: 800;
+	margin-top: 10px;
+}
+.ab p{
+	font-family: "Open Sans";
+	color: #666;
+	font-size: 15px;
+	line-height: 25px;
+	margin-top: 45px;
+}
+.ab .btn-read{
+	background: #ff0077;
+	color: #fff;
+	border-radius: 0;
+	padding: 11px 30px;
+	margin-top: 60px;
+	font-family: Montserrat;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+	border: 0 solid;
+	box-shadow: inset 0 0 20px rgba(255, 67, 1, 0);
+	outline: 1px solid;
+	outline-color: rgba(255, 67, 1, .5);
+	outline-offset: 0px;
+	text-shadow: none;
+	transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.ab .btn-read:hover{
+	color: #fff;
+	border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 1, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 67, 1, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+/*ABOUT US SECTION ENDS HERE*/
+
+/*PRODUCT SECTION STARTS HERE*/
+.prod-back{
+	background: url(../images/prod-back.png) no-repeat fixed;
+	margin-top: 50px;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	padding-bottom: 100px;
+}
+.prod-head h1{
+	margin-top: 100px;
+	font-family: Montserrat;
+	font-weight: 800;
+	color: #ff0077; 
+	margin-bottom: 20px;
+}
+.prod-head h1 .grey{
+	color: #222;
+}
+.pro-text{
+	background: #fff;
+}
+.prod-small{
+	margin-bottom: 35px;
+}
+.prod-small:hover .btn-cart{
+	background: #222;
+	color: #fff;
+}
+.pro-text .btn-cart{
+	background: #ff0077;
+	border-radius: 0;
+	margin-top: 20px;
+	color: #fff;
+	padding: 10px 50px;
+	font-family: Montserrat;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.pro-text .btn-cart:hover{
+	background: #222;
+	color: #fff;
+}
+.pro-text h4{
+	color: #ff0077;
+	font-family: Montserrat;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.prod-small:hover .pro-text h4{
+	color: #222;
+}
+.pro-text p{
+	font-family: Montserrat;
+	color: #218025;
+	font-weight: 600;
+}
+.pro-text i{
+	color: #fdb701;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+/*PRODUCT SECTION ENDS HERE*/
+
+/*FEATURED PRODUCT STARTS HERE*/
+.featured{
+	background: url(../images/featured.png) fixed;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+/*FEATURED PRODUCT ENDS HERE*/
+
+/*FOOTER STARTS HERE*/
+.footer{
+	background: url(../images/footer.png);
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0px;
+	padding-top: 80px;
+}
+.f-1 img{
+	margin-bottom: 40px;
+}
+.f-1 p{
+	font-family: "Open Sans";
+	font-weight: 15px;
+	color: #fff;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+.f-1 .btn-footer{
+	background: #ff0077;
+	color: #fff;
+	border-radius: 0;
+	padding: 11px 40px;
+	font-family: Montserrat;
+	font-weight: bold;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.f-1 .btn-footer:hover{
+	background: #fff;
+	color: #ff4301;
+}
+.f-2 h2{
+	margin-top: 2px;
+	font-family: Montserrat;
+	color: #fff;
+	font-weight: bold;
+}
+.f-2 ul{
+	margin-left: 0px;
+	padding-left: 30px;
+	margin-top: 50px;
+}
+.f-2 ul li{
+	list-style: square;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.f-2 ul li a{
+	color: #fff;
+	font-family: Montserrat;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.f-2 ul li a:hover{
+	text-decoration: none;
+	color: #ff0077;
+}
+.f-3 h2{
+	margin-top: 2px;
+	font-family: Montserrat;
+	color: #fff;
+	font-weight: bold;
+}
+.f-3 ul{
+	padding-left: 20px;
+	margin-top: 50px;
+}
+.f-3 ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.f-3 ul li .font{
+	float: left;
+    width: 10%;
+    color: #fff;
+    font-size: 20px;
+}
+.f-3 ul li .font-text{
+	float: left;
+    width: 90%;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+.f-3 ul li .blg-1{
+	float: left;
+	width: 20%;
+	margin-right: 10px;
+}
+.f-3 ul li .blg-2{
+	float: left;
+	width: 75%;
+	color: #fff;
+	font-family: Montserrat;
+}
+.f-3 ul li .blg-2 .orange{
+	color: #ff0077;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.f-3 ul{
+	padding-left: 15px;
+}
+.copy{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.copy h5{
+	text-align: center;
+	color: #fff;
+	font-family: Montserrat;
+}
+/*FOOTER ENDS HERE*/
+
+/*ABOUT US PAGE STARTS HERE*/
+.small-banner{
+	background: url(../images/small-banner.png);
+	min-height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+.small-banner h1{
+	color: #fff;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+.small-banner img{
+	width: 10%;
+	margin-top: 70px;
+}
+/*ABOUT US PAGE ENDS HERE*/
+
+/*CONTACT US PAGE STARTS HERE*/
+.contact-design-2{
+	margin-top: 75px;
+}
+.contact-design .box-header {
+    background: #ff0077;
+    color: #fff;
+    padding: 5px;
+}
+.contact-design .box-container {
+    padding: 15px;
+    border: 2px solid #ff0077;
+}
+.contact-design form label{
+	color: #555;
+}
+.contact-design input{
+	border: 1px solid #666 !important;
+}
+.contact-design textarea{
+	border: 1px solid #666 !important;
+}
+.box-container i {
+    background: #ff0077;
+    border: 2px solid #ff0077;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: 0.2s all ease-in;
+    -webkit-transition: 0.2s all ease-in;
+    -moz-transition: 0.2s all ease-in;
+    -o-transition: 0.2s all ease-in;
+}
+.box-container i:hover{
+	background: none;
+	border: 2px solid #ff0077;
+    color: #ff0077;
+}
+.box-container i .fa{
+	line-height: inherit;
+}
+.opening{
+	margin-top: 50px;
+}
+.opening .space-bot{
+	padding: 32px;
+}
+.contact-design .btn-contact{
+	background: #ff0077;
+	color: #fff;
+	padding: 10px 25px;
+	border: 2px solid #ff0077;
+}
+.contact-design .btn-contact:hover{
+	background: none;
+	color: #ff0077;
+	border: 2px solid #ff0077;
+}
+.contact-back{
+	background: url(../images/contact.png) fixed;
+	min-height: 500px;
+}
+/*CONTACT US PAGE ENDS HERE*/
+
+/*ORDER PAGE STARTS HERE*/
+.order-back{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.order-box{
+	background: #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.order-back h3{
+	margin-top: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #fff;
+	background: #ff0077;
+}
+.order-box p{
+	font-family: Montserrat;
+	font-weight: 600;
+	color: #222;
+	margin-top: 0px;
+}
+.order-box .btn-cart{
+	background: #ff0077;
+	border-radius: 0;
+	margin-top: 20px;
+	color: #fff;
+	padding: 10px 50px;
+	font-family: Montserrat;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
+.order-box .btn-cart:hover{
+	background: #222;
+	color: #fff;
+}
+/*ORDER PAGE ENDS HERE*/
